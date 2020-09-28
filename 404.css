@@ -3,7 +3,7 @@
 html {
 font-family: 'Patrick Hand', cursive;
 font-size: 50px;
-color: #602929;
+color: #161616;
 background-color: rgb(243, 243, 243)
 }
 
@@ -16,12 +16,12 @@ margin: auto;
 
 
 #gauche {
-	max-width: 1000px;
+	max-width: 800px;
 	margin: auto;
-	
 }
 
 #gauche img {
+display:block;
 height: 150px;
 margin: 0 auto;
 padding: 10px;
@@ -38,6 +38,22 @@ box-shadow: 0px 0px 10px white;
 #droite {
 	margin: auto;
 	text-align: center;
-	font-style: italic;
-	
+	font-style: italic;	
 }
+
+.image {
+	position: relative;
+	width: 1000px;
+	height: auto;
+}
+
+.overlay { 
+    position: relative; 
+    opacity: 0; 
+    transition: all 0.3s ease; 
+        } 
+		
+.image:hover .overlay {
+	opacity: 1;
+}
+	
