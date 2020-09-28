@@ -1,29 +1,43 @@
-* {
-margin: 0;
-padding: 0;	
-}
 
+/* mise en forme */
 html {
-background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/04/Brown-Bear-river-in-search-of-food-HD-Wallpaper.jpg");
-background-repeat: no-repeat;
-background-color: black;
-background-size: cover;
-font-family: 'Almendra', serif;
-color: white;
-}
-
-
-img {
-height: 100px;
+font-family: 'Patrick Hand', cursive;
+font-size: 50px;
+color: #602929;
+background-color: rgb(243, 243, 243)
 }
 
 main {
 display: flex;
+text-align: center;
+text-align: justify;
+margin: auto;
 }
 
-footer {
-position: absolute;
-bottom: 0;
-padding: 20px;
-color: white;
+
+#gauche {
+	max-width: 1000px;
+	margin: auto;
+	
+}
+
+#gauche img {
+height: 150px;
+margin: 0 auto;
+padding: 10px;
+border-radius: 25px;
+opacity: 0.3;
+}
+
+#gauche img:hover {
+opacity: 1;
+box-shadow: 0px 0px 10px white;
+}
+
+
+#droite {
+	margin: auto;
+	text-align: center;
+	font-style: italic;
+	
 }
