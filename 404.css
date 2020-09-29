@@ -19,12 +19,9 @@ text-align: justify;
 margin: auto;
 }
 
-/* bloc gauche */
 
-#gauche {
-	max-width: 800px;
-	margin: auto;
-}
+
+/* bloc gauche */
 
 .gif {
 display:block;
@@ -47,34 +44,34 @@ opacity: 1;
 box-shadow: 0px 0px 10px white;
 }
 
+#gauche {
+max-width: 800px;
+margin: auto;
+}
+
 
 
 
 /* bloc droite */
 
 
+.bulle {
+opacity: 0; 
+transition: all 0.5s ease;
+background: white;
+border-radius: 50px 50px 50px 0;
+padding: 10px;
+max-width: 800px;
+}
 
 #droite {
-	margin: auto;
-	text-align: center;
-	font-style: italic;
-	font-size: 60px;
-	color: #FE7473;
-	background-image: url(https://media.giphy.com/media/fo2dhRTmaULbStoFkX/giphy.gif);
-	
+margin: auto;
+text-align: center;
+font-style: italic;
+font-size: 60px;
+color: #FE7473;
+background-image: url(https://media.giphy.com/media/fo2dhRTmaULbStoFkX/giphy.gif);	
 }
-
-
-
-.bulle {
-	opacity: 0; 
-    transition: all 0.5s ease;
-	background: white;
-	border-radius: 50px 50px 50px 0;
-	padding: 10px;
-	max-width: 800px;
-}
-
 
  #droite:hover .bulle {
 	opacity: 0.7;
