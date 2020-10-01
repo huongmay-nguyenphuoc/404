@@ -5,6 +5,7 @@
 margin: 20px;		
 }
 
+
 html {
 font-family: 'Patrick Hand', cursive;
 font-size: 50px;
@@ -12,14 +13,48 @@ color: #161616;
 background-color: rgb(243, 243, 243);
 }
 
+
 main {
 display: flex;
-text-align: center;
 text-align: justify;
 margin: auto;
 }
 
 
+
+
+/* header */
+
+
+header {
+background-color: #FE7473;	
+text-align: center;
+border: 10px solid black;
+}
+
+
+a {
+	color: white;
+	transition: 0.5s;
+	
+}
+
+
+a:hover {
+	color: #FE7473;
+	background-color: white;
+	border-radius: 10%;
+}
+
+
+
+/* footer */
+
+
+footer {
+font-size: 30px;	
+border-top: 1px solid black;
+}
 
 /* bloc gauche */
 
@@ -27,7 +62,7 @@ margin: auto;
 display:block;
 height: 200px;
 margin: 0 auto;
- opacity: 0.7; 
+opacity: 0.7; 
 }
 
 .chateau {
@@ -73,6 +108,6 @@ color: #FE7473;
 background-image: url(https://media.giphy.com/media/fo2dhRTmaULbStoFkX/giphy.gif);	
 }
 
- #droite:hover .bulle {
+#droite:hover .bulle {
 	opacity: 0.7;
 }
